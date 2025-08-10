@@ -24,7 +24,7 @@ def recur_rev_str(s):
 
 def itr_fact(num):
     result = 1
-    for i in range(2,n+1):
+    for i in range(2,num+1):
         result*=i
     return result
 def rec_fact(num):
