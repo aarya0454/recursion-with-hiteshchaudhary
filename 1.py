@@ -20,4 +20,16 @@ def recur_rev_str(s):
         return s
     else:
         return recur_rev_str(s[1:]) + s[0] 
-print(recur_rev_str('hello'))
+# print(recur_rev_str('hello'))
+
+def itr_fact(num):
+    result = 1
+    for i in range(2,n+1):
+        result*=i
+    return result
+def rec_fact(num):
+    if num<=1:
+        return 1
+    else:
+        return num * rec_fact(num-1)
+ 
